@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-WhereIsDalton.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\studentVR\Documents\Unreal Projects\WhereIsDalton\Intermediate\Build\Win64\UE4Editor\Development\WhereIsDalton\WhereIsDalton.cpp.obj"
+"C:\Users\studentVR\Documents\Unreal Projects\WhereIsDalton\Intermediate\Build\Win64\UE4Editor\Development\WhereIsDalton\WhereIsDaltonCharacter.cpp.obj"
+"C:\Users\studentVR\Documents\Unreal Projects\WhereIsDalton\Intermediate\Build\Win64\UE4Editor\Development\WhereIsDalton\WhereIsDaltonGameMode.cpp.obj"
+"C:\Users\studentVR\Documents\Unreal Projects\WhereIsDalton\Intermediate\Build\Win64\UE4Editor\Development\WhereIsDalton\WhereIsDaltonPlayerController.cpp.obj"
+"C:\Users\studentVR\Documents\Unreal Projects\WhereIsDalton\Intermediate\Build\Win64\UE4Editor\Development\WhereIsDalton\WhereIsDalton.init.gen.cpp.obj"
+"C:\Users\studentVR\Documents\Unreal Projects\WhereIsDalton\Intermediate\Build\Win64\UE4Editor\Development\WhereIsDalton\WhereIsDaltonCharacter.gen.cpp.obj"
+"C:\Users\studentVR\Documents\Unreal Projects\WhereIsDalton\Intermediate\Build\Win64\UE4Editor\Development\WhereIsDalton\WhereIsDaltonGameMode.gen.cpp.obj"
+"C:\Users\studentVR\Documents\Unreal Projects\WhereIsDalton\Intermediate\Build\Win64\UE4Editor\Development\WhereIsDalton\WhereIsDaltonPlayerController.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\WhereIsDalton\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\studentVR\Documents\Unreal Projects\WhereIsDalton\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WhereIsDalton.lib"

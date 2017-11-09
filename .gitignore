@@ -73,3 +73,6 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# We don't need StarterContent
+WhereIsDalton/Content/StarterContent/*
