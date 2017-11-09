@@ -1,4 +1,4 @@
-﻿Log file open, 11/09/17 17:59:30
+﻿Log file open, 11/09/17 18:20:44
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WhereIsDalton
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-356884770) SRandInit(-356884770).
+LogInit: Display: RandInit(-1240602847) SRandInit(-1240602847).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3709383, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.164072
+LogStats: Stats thread started at 0.165520
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -75,7 +75,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/studentVR/Desktop/Zima/WhereIsDalton/Binaries/Win64/UE4Editor-WhereIsDalton.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Binaries/Win64/UE4Editor-WhereIsDalton.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -190,159 +190,553 @@ LogInit: Compiled (64-bit): Oct 20 2017 10:39:19
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.09-16.59.32:297][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.09-16.59.32:297][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.09-16.59.32:308][  0]LogInit: Computer: VR14
-[2017.11.09-16.59.32:309][  0]LogInit: User: studentVR
-[2017.11.09-16.59.32:309][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.09-16.59.32:309][  0]LogInit: High frequency timer resolution =3.417985 MHz
-[2017.11.09-16.59.32:309][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.11.09-16.59.32:309][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.09-16.59.32:309][  0]LogMemory: Process Physical Memory: 272.42 MB used, 272.42 MB peak
-[2017.11.09-16.59.32:309][  0]LogMemory: Process Virtual Memory: 269.78 MB used, 269.78 MB peak
-[2017.11.09-16.59.32:309][  0]LogMemory: Physical Memory: 7337.73 MB used,  25362.95 MB free, 32700.68 MB total
-[2017.11.09-16.59.32:309][  0]LogMemory: Virtual Memory: 645.21 MB used,  25362.95 MB free, 134217728.00 MB total
-[2017.11.09-16.59.32:439][  0]LogInit: Using OS detected language (en-US).
-[2017.11.09-16.59.32:439][  0]LogInit: Using OS detected locale (pl-PL).
-[2017.11.09-16.59.32:442][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.09-16.59.32:442][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en-US' will be used for the locale.
-[2017.11.09-16.59.32:819][  0]LogInit: Setting process to per monitor DPI aware
-[2017.11.09-16.59.33:040][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.09-16.59.33:066][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.11.09-16.59.33:066][  0]LogD3D11RHI:       4058/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.11.09-16.59.33:067][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.09-16.59.33:067][  0]LogD3D11RHI:       0/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.09-16.59.33:067][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.09-16.59.33:070][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.09-16.59.33:070][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.09-16.59.33:070][  0]LogWindows: EnumDisplayDevices:
-[2017.11.09-16.59.33:070][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.11.09-16.59.33:070][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.11.09-16.59.33:070][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.11.09-16.59.33:070][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.11.09-16.59.33:070][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.11.09-16.59.33:071][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.11.09-16.59.33:071][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
-[2017.11.09-16.59.33:071][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2017.11.09-16.59.33:071][  0]LogRHI: Texture pool is 2841 MB (70% of 4058 MB)
-[2017.11.09-16.59.33:082][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.09-16.59.33:091][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.09-16.59.33:137][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/studentVR/Desktop/Zima/WhereIsDalton/Intermediate/Shaders/WorkingDirectory/1036/).
-[2017.11.09-16.59.33:137][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentVR/AppData/Local/Temp/UnrealShaderWorkingDir/B3976C3143FEE302BD6B24A8A9D02033/'.
-[2017.11.09-16.59.33:137][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.09-16.59.34:033][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.09-16.59.34:080][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.09-16.59.34:128][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.09-16.59.34:175][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.09-16.59.34:230][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.09-16.59.34:292][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.09-16.59.34:344][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.09-16.59.34:390][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.09-16.59.34:432][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.09-16.59.34:484][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.09-16.59.34:531][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.09-16.59.34:579][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.09-16.59.34:623][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.09-16.59.34:669][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.09-16.59.34:770][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.09-16.59.34:770][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.09-16.59.34:816][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.09-16.59.34:852][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.09-16.59.34:935][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.09-16.59.34:961][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.09-16.59.35:007][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.09-16.59.35:061][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.09-16.59.35:111][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.09-16.59.35:156][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.09-16.59.35:156][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.09-16.59.35:586][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/studentVR/Desktop/Zima/WhereIsDalton/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/studentVR/Desktop/Zima/WhereIsDalton/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.09-16.59.35:684][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.09-16.59.35:696][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentVR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.09-16.59.35:706][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.09-16.59.35:706][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.09-16.59.35:706][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.09-16.59.35:706][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.09-16.59.36:066][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.09-16.59.36:392][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.09-16.59.36:427][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.09-16.59.36:427][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.09-16.59.36:427][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.09-16.59.36:427][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.09-16.59.36:427][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.09-16.59.36:452][  0]LogNetVersion: WhereIsDalton , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3483981653)
-[2017.11.09-16.59.36:610][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
-[2017.11.09-16.59.37:080][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.062685 seconds
-[2017.11.09-16.59.37:086][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.11.09-16.59.37:086][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2017.11.09-16.59.37:086][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.09-16.59.37:134][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.09-16.59.39:668][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.09-16.59.39:711][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.09-16.59.40:531][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.09-16.59.40:920][  0]SourceControl: Source control is disabled
-[2017.11.09-16.59.40:920][  0]SourceControl: Source control is disabled
-[2017.11.09-16.59.40:975][  0]SourceControl: Source control is disabled
-[2017.11.09-16.59.41:028][  0]SourceControl: Source control is disabled
-[2017.11.09-16.59.41:818][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.09-16.59.42:072][  0]LogOcInput: OculusInput pre-init called
-[2017.11.09-16.59.42:320][  0]LogEngine: Initializing Engine...
-[2017.11.09-16.59.42:322][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.09-16.59.42:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.09-16.59.42:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.09-16.59.42:658][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.09-16.59.42:665][  0]LogInit: XAudio2 using 'LG TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.09-16.59.42:672][  0]LogInit: FAudioDevice initialized.
-[2017.11.09-16.59.42:881][  0]LogDerivedDataCache: Saved boot cache 0.21s 79MB C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.09-16.59.42:907][  0]LogInit: Texture streaming: Enabled
-[2017.11.09-16.59.43:006][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.09-16.59.43:125][  0]LogInit: Transaction tracking system initialized
-[2017.11.09-16.59.43:418][  0]BlueprintLog: New page: Editor Load
-[2017.11.09-16.59.44:282][  0]LocalizationService: Localization service is disabled
-[2017.11.09-16.59.44:980][  0]LogConsoleResponse: Display: 
-[2017.11.09-16.59.45:148][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.09-16.59.45:148][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.09-16.59.45:148][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.09-16.59.45:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/Zima/WhereIsDalton/Content/' took 0.01s
-[2017.11.09-16.59.46:291][  0]SourceControl: Source control is disabled
-[2017.11.09-16.59.46:291][  0]Cmd: MAP LOAD FILE="../../../../../../Users/studentVR/Desktop/Zima/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.09-16.59.46:291][  0]LightingResults: New page: Lighting Build
-[2017.11.09-16.59.46:331][  0]MapCheck: New page: Map Check
-[2017.11.09-16.59.46:331][  0]LightingResults: New page: Lighting Build
-[2017.11.09-16.59.46:483][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2017.11.09-16.59.46:488][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.09-16.59.46:500][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.09-16.59.46:551][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.496ms to complete.
-[2017.11.09-16.59.46:551][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.260
-[2017.11.09-16.59.46:680][  0]LogCollectionManager: Loaded 0 collections in 0.001651 seconds
-[2017.11.09-16.59.46:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/Zima/WhereIsDalton/Saved/Collections/' took 0.01s
-[2017.11.09-16.59.46:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/Zima/WhereIsDalton/Content/Developers/studentVR/Collections/' took 0.01s
-[2017.11.09-16.59.46:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/Zima/WhereIsDalton/Content/Collections/' took 0.01s
-[2017.11.09-16.59.46:754][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.11.09-16.59.46:767][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2366 classes and 521 folders.
-[2017.11.09-16.59.46:825][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.09-16.59.46:861][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.09-16.59.46:901][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.11.09-16.59.46:936][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.09-16.59.46:938][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.09-16.59.46:944][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.09-16.59.47:036][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.11.09-16.59.47:200][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.11.09-16.59.47:200][  0]LogLoad: (Engine Initialization) Total time: 17.36 seconds
-[2017.11.09-16.59.47:200][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.09-16.59.47:200][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.09-16.59.47:564][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.09-16.59.47:612][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.09-16.59.48:209][  2]LogAssetRegistry: Asset discovery search completed in 11.6219 seconds
-[2017.11.09-16.59.48:211][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.11.09-16.59.48:211][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2017.11.09-17.20.46:038][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.09-17.20.46:038][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.09-17.20.46:050][  0]LogInit: Computer: VR09
+[2017.11.09-17.20.46:050][  0]LogInit: User: studentVR
+[2017.11.09-17.20.46:050][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.09-17.20.46:050][  0]LogInit: High frequency timer resolution =3.417980 MHz
+[2017.11.09-17.20.46:050][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.11.09-17.20.46:050][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.09-17.20.46:050][  0]LogMemory: Process Physical Memory: 272.79 MB used, 272.79 MB peak
+[2017.11.09-17.20.46:050][  0]LogMemory: Process Virtual Memory: 269.56 MB used, 269.56 MB peak
+[2017.11.09-17.20.46:050][  0]LogMemory: Physical Memory: 5605.95 MB used,  27094.73 MB free, 32700.68 MB total
+[2017.11.09-17.20.46:050][  0]LogMemory: Virtual Memory: 643.99 MB used,  27094.73 MB free, 134217728.00 MB total
+[2017.11.09-17.20.46:176][  0]LogInit: Using OS detected language (en-US).
+[2017.11.09-17.20.46:176][  0]LogInit: Using OS detected locale (pl-PL).
+[2017.11.09-17.20.46:178][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.09-17.20.46:178][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en-US' will be used for the locale.
+[2017.11.09-17.20.46:535][  0]LogInit: Setting process to per monitor DPI aware
+[2017.11.09-17.20.46:737][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.09-17.20.46:768][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.11.09-17.20.46:768][  0]LogD3D11RHI:       4059/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.09-17.20.46:769][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.09-17.20.46:769][  0]LogD3D11RHI:       0/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.09-17.20.46:769][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.09-17.20.46:773][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.09-17.20.46:773][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.09-17.20.46:773][  0]LogWindows: EnumDisplayDevices:
+[2017.11.09-17.20.46:773][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.11.09-17.20.46:773][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.09-17.20.46:773][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.09-17.20.46:773][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.09-17.20.46:773][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.09-17.20.46:773][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.11.09-17.20.46:774][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.11.09-17.20.46:774][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.11.09-17.20.46:774][  0]LogRHI: Texture pool is 2841 MB (70% of 4059 MB)
+[2017.11.09-17.20.46:801][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.09-17.20.46:813][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.09-17.20.46:860][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Intermediate/Shaders/WorkingDirectory/8704/).
+[2017.11.09-17.20.46:860][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentVR/AppData/Local/Temp/UnrealShaderWorkingDir/EE8D246841F8F48E6134F2A6D0D37644/'.
+[2017.11.09-17.20.46:860][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.09-17.20.47:720][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.09-17.20.47:767][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.09-17.20.47:812][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.09-17.20.47:856][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.09-17.20.47:900][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.09-17.20.47:945][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.09-17.20.47:990][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.09-17.20.48:035][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.09-17.20.48:074][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.09-17.20.48:117][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.09-17.20.48:161][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.09-17.20.48:204][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.09-17.20.48:247][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.09-17.20.48:291][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.09-17.20.48:378][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.09-17.20.48:378][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.09-17.20.48:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.09-17.20.48:454][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.09-17.20.48:534][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.09-17.20.48:558][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.09-17.20.48:617][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.09-17.20.48:664][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.09-17.20.48:708][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.09-17.20.48:751][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.09-17.20.48:751][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.09-17.20.49:156][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.09-17.20.49:235][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.09-17.20.49:235][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.11.09-17.20.49:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.09-17.20.49:236][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.09-17.20.49:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.09-17.20.49:236][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.09-17.20.49:251][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.09-17.20.49:263][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentVR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.09-17.20.49:272][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.09-17.20.49:272][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.09-17.20.49:272][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.09-17.20.49:272][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.09-17.20.49:590][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.09-17.20.49:888][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.09-17.20.49:923][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.09-17.20.49:923][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.09-17.20.49:923][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.09-17.20.49:923][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.09-17.20.49:923][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.09-17.20.49:947][  0]LogNetVersion: WhereIsDalton , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3483981653)
+[2017.11.09-17.20.50:094][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.11.09-17.20.50:544][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.054192 seconds
+[2017.11.09-17.20.50:549][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.11.09-17.20.50:549][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2017.11.09-17.20.50:549][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.09-17.20.50:604][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.09-17.20.53:114][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.09-17.20.53:153][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.09-17.20.53:924][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.09-17.20.54:296][  0]SourceControl: Source control is disabled
+[2017.11.09-17.20.54:296][  0]SourceControl: Source control is disabled
+[2017.11.09-17.20.54:343][  0]SourceControl: Source control is disabled
+[2017.11.09-17.20.54:389][  0]SourceControl: Source control is disabled
+[2017.11.09-17.20.55:118][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.09-17.20.55:359][  0]LogOcInput: OculusInput pre-init called
+[2017.11.09-17.20.55:620][  0]LogEngine: Initializing Engine...
+[2017.11.09-17.20.55:622][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.09-17.20.55:812][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.09-17.20.55:812][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.09-17.20.55:922][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.09-17.20.55:929][  0]LogInit: XAudio2 using 'LG TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.09-17.20.55:943][  0]LogInit: FAudioDevice initialized.
+[2017.11.09-17.20.56:101][  0]LogDerivedDataCache: Saved boot cache 0.16s 79MB C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.09-17.20.56:113][  0]LogInit: Texture streaming: Enabled
+[2017.11.09-17.20.56:202][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.09-17.20.56:315][  0]LogInit: Transaction tracking system initialized
+[2017.11.09-17.20.56:586][  0]BlueprintLog: New page: Editor Load
+[2017.11.09-17.20.57:395][  0]LocalizationService: Localization service is disabled
+[2017.11.09-17.20.58:029][  0]LogConsoleResponse: Display: 
+[2017.11.09-17.20.58:190][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.09-17.20.58:190][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.09-17.20.58:190][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.09-17.20.59:195][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/' took 0.01s
+[2017.11.09-17.20.59:236][  0]SourceControl: Source control is disabled
+[2017.11.09-17.20.59:236][  0]Cmd: MAP LOAD FILE="../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.09-17.20.59:236][  0]LightingResults: New page: Lighting Build
+[2017.11.09-17.20.59:273][  0]MapCheck: New page: Map Check
+[2017.11.09-17.20.59:273][  0]LightingResults: New page: Lighting Build
+[2017.11.09-17.20.59:343][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2017.11.09-17.20.59:343][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap.umap.
+[2017.11.09-17.20.59:343][  0]LoadErrors: Error: /Game/TopDownCPP/Maps/TopDownExampleMap : Can't find file for asset. /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData
+[2017.11.09-17.20.59:348][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2017.11.09-17.20.59:348][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap.umap.
+[2017.11.09-17.20.59:348][  0]LoadErrors: Error: /Game/TopDownCPP/Maps/TopDownExampleMap : Can't find file for asset. /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData
+[2017.11.09-17.20.59:350][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2017.11.09-17.20.59:350][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading NULL.
+[2017.11.09-17.20.59:350][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2017.11.09-17.20.59:350][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading NULL.
+[2017.11.09-17.20.59:357][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2017.11.09-17.20.59:357][  0]LoadErrors: Failed to load /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2017.11.09-17.20.59:357][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading NULL.
+[2017.11.09-17.20.59:357][  0]LoadErrors: Failed to load /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2017.11.09-17.20.59:412][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.11.09-17.20.59:417][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.09-17.20.59:427][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.09-17.20.59:472][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.081ms to complete.
+[2017.11.09-17.20.59:472][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.237
+[2017.11.09-17.20.59:593][  0]LogCollectionManager: Loaded 0 collections in 0.001815 seconds
+[2017.11.09-17.20.59:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/Collections/' took 0.01s
+[2017.11.09-17.20.59:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/studentVR/Collections/' took 0.01s
+[2017.11.09-17.20.59:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Collections/' took 0.01s
+[2017.11.09-17.20.59:666][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.09-17.20.59:674][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2366 classes and 521 folders.
+[2017.11.09-17.20.59:732][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.11.09-17.20.59:765][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.09-17.20.59:804][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.09-17.20.59:837][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.09-17.20.59:839][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.09-17.20.59:844][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.09-17.20.59:932][  0]LogRenderer: Reallocating scene render targets to support 1208x596 Format 10 NumSamples 1 (Frame:1).
+[2017.11.09-17.21.00:084][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.09-17.21.00:084][  0]LogLoad: (Engine Initialization) Total time: 16.48 seconds
+[2017.11.09-17.21.00:084][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.09-17.21.00:084][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.09-17.21.00:094][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.09-17.21.00:110][  0]LogAssetRegistry: Asset discovery search completed in 10.0374 seconds
+[2017.11.09-17.21.00:111][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.09-17.21.00:111][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2017.11.09-17.21.00:115][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.09-17.21.00:154][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.09-17.21.31:736][740]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.21.31:736][740]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.21.31:737][740]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.21.51:762][138]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.21.51:762][138]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.21.51:762][138]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.22.03:320][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2017.11.09-17.22.05:477][765]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.22.05:477][765]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.22.05:477][765]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.22.08:247][ 86]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.22.08:247][ 86]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.22.08:247][ 86]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.22.08:605][122]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.22.08:605][122]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.22.08:605][122]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.22.08:798][139]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.22.08:798][139]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.22.08:798][139]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.22.08:991][152]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.22.08:991][152]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.22.08:991][152]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.22.09:425][184]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.22.09:425][184]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.22.09:425][184]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.22.18:984][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.09-17.22.19:737][359]Cmd: SELECT NONE
+[2017.11.09-17.22.20:235][418]Cmd: SELECT NONE
+[2017.11.09-17.23.20:091][593]SourceControl: Source control is disabled
+[2017.11.09-17.23.33:384][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Geometry/Content/Meshes/1M_Cube.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Geometry/Meshes/1M_Cube.uasset
+[2017.11.09-17.23.33:385][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Geometry/Content/Meshes/1M_Cube_Chamfer.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2017.11.09-17.23.33:385][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Geometry/Content/Meshes/CubeMaterial.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Geometry/Meshes/CubeMaterial.uasset
+[2017.11.09-17.23.33:392][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonIdle.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPersonIdle.uasset
+[2017.11.09-17.23.33:397][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonJump_Loop.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset
+[2017.11.09-17.23.33:397][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonJump_Start.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset
+[2017.11.09-17.23.33:398][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonRun.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPersonRun.uasset
+[2017.11.09-17.23.33:398][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonWalk.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPersonWalk.uasset
+[2017.11.09-17.23.33:398][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_AnimBP.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2017.11.09-17.23.33:399][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_IdleRun_2D.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset
+[2017.11.09-17.23.33:399][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_Jump.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPerson_Jump.uasset
+[2017.11.09-17.23.33:400][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/M_UE4Man_Body.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset
+[2017.11.09-17.23.33:400][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/M_UE4Man_ChestLogo.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset
+[2017.11.09-17.23.33:401][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.11.09-17.23.33:401][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.11.09-17.23.33:401][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.11.09-17.23.33:402][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.11.09-17.23.33:402][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.11.09-17.23.33:402][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.11.09-17.23.33:403][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.11.09-17.23.33:403][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.11.09-17.23.33:404][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/SK_Mannequin.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset
+[2017.11.09-17.23.33:404][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset
+[2017.11.09-17.23.33:405][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/UE4_Mannequin_Skeleton.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.11.09-17.23.33:405][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Textures/UE4Man_Logo_N.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset
+[2017.11.09-17.23.33:405][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Textures/UE4_LOGO_CARD.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset
+[2017.11.09-17.23.33:406][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.11.09-17.23.33:406][164]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Textures/UE4_Mannequin__normals.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset
+[2017.11.09-17.23.33:410][164]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.09-17.23.33:418][164]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.18/FeaturePacks/TP_TopDownBP.upack)
+[2017.11.09-17.23.33:423][164]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.11.09-17.23.33:428][164]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/TopDownOverview.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/TopDownOverview.uasset"
+[2017.11.09-17.23.33:433][164]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Blueprints/M_Cursor_Decal.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Blueprints/M_Cursor_Decal.uasset"
+[2017.11.09-17.23.33:438][164]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Blueprints/TopDownCharacter.uasset"
+[2017.11.09-17.23.33:444][164]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Blueprints/TopDownController.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Blueprints/TopDownController.uasset"
+[2017.11.09-17.23.33:448][164]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Blueprints/TopDownGameMode.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Blueprints/TopDownGameMode.uasset"
+[2017.11.09-17.23.33:452][164]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Character/TopDownIdleRun.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Character/TopDownIdleRun.uasset"
+[2017.11.09-17.23.33:453][164]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Character/TopDownSkeletalMesh.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Character/TopDownSkeletalMesh.uasset"
+[2017.11.09-17.23.33:463][164]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Maps/TopDownExampleMap.umap" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Maps/TopDownExampleMap.umap"
+[2017.11.09-17.23.33:469][164]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset"
+[2017.11.09-17.23.33:488][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/TopDownOverview" FILE="../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/TopDownOverview.uasset" SILENT=true
+[2017.11.09-17.23.33:503][164]LogSavePackage: Save=8.15ms
+[2017.11.09-17.23.33:503][164]LogSavePackage: Moving '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/TopDownOverview869BB8F74744CF5DDFFD6EB9068D1DC3.tmp' to '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/TopDownOverview.uasset'
+[2017.11.09-17.23.33:510][164]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/TopDownOverview.uasset
+[2017.11.09-17.23.46:303][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Geometry/Content/Meshes/1M_Cube.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Geometry/Meshes/1M_Cube.uasset
+[2017.11.09-17.23.46:303][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Geometry/Content/Meshes/1M_Cube_Chamfer.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2017.11.09-17.23.46:304][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Geometry/Content/Meshes/CubeMaterial.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Geometry/Meshes/CubeMaterial.uasset
+[2017.11.09-17.23.46:310][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonIdle.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPersonIdle.uasset
+[2017.11.09-17.23.46:314][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonJump_Loop.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset
+[2017.11.09-17.23.46:314][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonJump_Start.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset
+[2017.11.09-17.23.46:315][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonRun.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPersonRun.uasset
+[2017.11.09-17.23.46:315][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPersonWalk.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPersonWalk.uasset
+[2017.11.09-17.23.46:315][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_AnimBP.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2017.11.09-17.23.46:316][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_IdleRun_2D.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset
+[2017.11.09-17.23.46:316][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Animations/ThirdPerson_Jump.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Animations/ThirdPerson_Jump.uasset
+[2017.11.09-17.23.46:317][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/M_UE4Man_Body.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset
+[2017.11.09-17.23.46:317][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/M_UE4Man_ChestLogo.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset
+[2017.11.09-17.23.46:317][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.11.09-17.23.46:318][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.11.09-17.23.46:318][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.11.09-17.23.46:318][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.11.09-17.23.46:319][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.11.09-17.23.46:319][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.11.09-17.23.46:319][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.11.09-17.23.46:320][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.11.09-17.23.46:320][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/SK_Mannequin.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset
+[2017.11.09-17.23.46:321][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset
+[2017.11.09-17.23.46:321][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Mesh/UE4_Mannequin_Skeleton.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2017.11.09-17.23.46:321][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Textures/UE4Man_Logo_N.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset
+[2017.11.09-17.23.46:322][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Textures/UE4_LOGO_CARD.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset
+[2017.11.09-17.23.46:322][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.11.09-17.23.46:322][697]LogFeaturePack: Warning: Failed to copy ../../../Templates/TemplateResources/High/Mannequin/Content/Character/Textures/UE4_Mannequin__normals.uasset to ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset
+[2017.11.09-17.23.46:329][697]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.18/FeaturePacks/TP_TopDownBP.upack)
+[2017.11.09-17.23.46:333][697]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.11.09-17.23.46:337][697]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/TopDownOverview.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/TopDownOverview.uasset"
+[2017.11.09-17.23.46:342][697]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Blueprints/M_Cursor_Decal.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Blueprints/M_Cursor_Decal.uasset"
+[2017.11.09-17.23.46:347][697]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Blueprints/TopDownCharacter.uasset"
+[2017.11.09-17.23.46:352][697]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Blueprints/TopDownController.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Blueprints/TopDownController.uasset"
+[2017.11.09-17.23.46:357][697]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Blueprints/TopDownGameMode.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Blueprints/TopDownGameMode.uasset"
+[2017.11.09-17.23.46:358][697]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Character/TopDownIdleRun.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Character/TopDownIdleRun.uasset"
+[2017.11.09-17.23.46:359][697]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Character/TopDownSkeletalMesh.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Character/TopDownSkeletalMesh.uasset"
+[2017.11.09-17.23.46:369][697]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Maps/TopDownExampleMap.umap" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Maps/TopDownExampleMap.umap"
+[2017.11.09-17.23.46:375][697]LogPackFactory: Copied "../../../Templates/TP_TopDownBP/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" to "../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset"
+[2017.11.09-17.23.46:387][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/TopDownOverview" FILE="../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/TopDownOverview.uasset" SILENT=true
+[2017.11.09-17.23.46:396][697]LogSavePackage: Save=7.37ms
+[2017.11.09-17.23.46:396][697]LogSavePackage: Moving '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/TopDownOverview50D7AF89405DABDA1C2D0FAA1A4EBC40.tmp' to '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/TopDownOverview.uasset'
+[2017.11.09-17.23.46:399][697]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownBP/TopDownOverview.uasset
+[2017.11.09-17.23.48:612][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.09-17.24.02:965][116]LogSourceControl: Error: P4ERROR: Invalid connection to server.
+[2017.11.09-17.24.02:965][116]LogSourceControl: Error: Connect to server failed; check $P4PORT.
+TCP connect to perforce:1666 failed.
+No such host is known. 
+
+[2017.11.09-17.24.02:982][118]LogSourceControl: Error: P4ERROR: Invalid connection to server.
+[2017.11.09-17.24.02:982][118]LogSourceControl: Error: Connect to server failed; check $P4PORT.
+TCP connect to perforce:1666 failed.
+No such host is known. 
+
+[2017.11.09-17.24.02:982][118]SourceControl: Error: Failed to connect to source control. Check your settings and connection then try again.
+[2017.11.09-17.24.06:599][508]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.06:599][508]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.06:599][508]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.07:259][575]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.07:259][575]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.07:259][575]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.07:429][591]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.07:429][591]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.07:430][591]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.07:602][604]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.07:603][604]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.07:603][604]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.07:960][629]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.07:960][629]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.07:960][629]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.24:407][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2017.11.09-17.24.40:069][342]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.40:069][342]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.40:069][342]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.40:257][361]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.40:257][361]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.40:257][361]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.40:594][390]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.40:594][390]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.40:594][390]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.40:882][414]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.40:882][414]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.40:882][414]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.41:232][438]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.41:233][438]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.41:233][438]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.46:392][  5]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-17.24.46:392][  5]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-17.24.46:392][  5]SourceControl: Error: Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.11.09-17.24.57:298][217]SourceControl: Source control is disabled
+[2017.11.09-17.25.35:729][539]SourceControl: On branch master
+[2017.11.09-17.25.35:730][539]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.09-17.25.35:730][539]SourceControl: Changes not staged for commit:
+[2017.11.09-17.25.35:730][539]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.11.09-17.25.35:730][539]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.09-17.25.35:730][539]SourceControl: 	modified:   WhereIsDalton/Intermediate/CachedAssetRegistry.bin
+[2017.11.09-17.25.35:730][539]SourceControl: 	modified:   WhereIsDalton/Saved/Autosaves/PackageRestoreData.json
+[2017.11.09-17.25.35:730][539]SourceControl: 	modified:   WhereIsDalton/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.09-17.25.35:730][539]SourceControl: 	modified:   WhereIsDalton/Saved/Logs/WhereIsDalton.log
+[2017.11.09-17.25.35:730][539]SourceControl: Untracked files:
+[2017.11.09-17.25.35:730][539]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.09-17.25.35:730][539]SourceControl: 	WhereIsDalton/Content/TopDownBP/
+[2017.11.09-17.25.35:730][539]SourceControl: 	WhereIsDalton/Saved/Backup/TopDownOverview_2017-11-09-18-23-33.uasset
+[2017.11.09-17.25.35:730][539]SourceControl: 	WhereIsDalton/Saved/Config/CrashReportClient/UE4CC-Windows-D6CC52C64F8A958A2137F9B98884D9F9/
+[2017.11.09-17.25.35:730][539]SourceControl: 	WhereIsDalton/Saved/Logs/WhereIsDalton-backup-2017.11.09-18.20.44.log
+[2017.11.09-17.25.35:730][539]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.09-17.25.40:308][ 81]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.09-17.25.40:346][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.25.40:347][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.09-17.25.40:347][ 81]PIE: New page: PIE session: TopDownExampleMap (Nov 9, 2017, 7:25:40 PM)
+[2017.11.09-17.25.40:347][ 81]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.11.09-17.25.40:376][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028704s)
+[2017.11.09-17.25.40:377][ 81]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.11.09-17.25.40:377][ 81]LogPlayLevel: PIE: World Init took: (0.001104s)
+[2017.11.09-17.25.40:377][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.030147s)
+[2017.11.09-17.25.40:391][ 81]LogInit: XAudio2 using 'LG TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.09-17.25.40:397][ 81]LogInit: FAudioDevice initialized.
+[2017.11.09-17.25.40:441][ 81]LogLoad: Game class is 'WhereIsDaltonGameMode'
+[2017.11.09-17.25.40:443][ 81]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.11.09-18.25.40
+[2017.11.09-17.25.40:443][ 81]LogWorld: Bringing up level for play took: 0.001192
+[2017.11.09-17.25.40:483][ 81]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.11.09-17.25.40:485][ 81]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.071
+[2017.11.09-17.25.40:486][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.27.35:899][925]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.27.35:930][925]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.27.36:771][ 24]MapCheck: New page: Map Check
+[2017.11.09-17.27.36:780][ 24]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.09-17.27.36:780][ 24]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.09-17.27.36:868][ 24]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.11.09-17.27.36:875][ 24]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.11.09-17.27.36:880][ 24]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2017.11.09-17.27.36:886][ 24]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2017.11.09-17.27.37:331][ 24]TextureStreamingBuild: Display: Compiling optional shaders took 0.468 seconds.
+[2017.11.09-17.27.37:333][ 24]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2017.11.09-17.27.37:339][ 24]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2017.11.09-17.27.37:347][ 24]LightingResults: New page: Lighting Build - Nov 9, 2017, 7:27:37 PM
+[2017.11.09-17.27.37:376][ 24]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.09-17.27.37:406][ 24]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.09-17.27.37:414][ 24]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.09-17.27.37:946][ 24]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.09-17.27.37:946][ 24]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8704
+[2017.11.09-17.27.40:408][ 24]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.09-17.27.40:408][ 24]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.09-17.27.40:408][ 24]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.09-17.27.40:408][ 24]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.09-17.27.40:408][ 24]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.09-17.27.40:562][ 24]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.11.09-17.27.40:562][ 24]MapCheck: New page: TopDownExampleMap - Nov 9, 2017, 7:27:40 PM
+[2017.11.09-17.27.40:562][ 24]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2017.11.09-17.27.40:611][ 24]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 49.144ms to complete.
+[2017.11.09-17.27.40:633][ 24]LogEditorBuildUtils: Build time 0:03
+[2017.11.09-17.27.44:990][381]Job is a success!
+[2017.11.09-17.27.45:035][382]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2017.11.09-17.27.45:035][382]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2017.11.09-17.27.45:035][382]LogVolumetricLightmapImport:      BrickData 175x5x5 = 0.1Mb
+[2017.11.09-17.27.45:035][382]LogVolumetricLightmapImport:      Bricks at Level
+[2017.11.09-17.27.45:035][382]LogVolumetricLightmapImport:          0: 2.9% covering 100.0% of volume
+[2017.11.09-17.27.45:035][382]LogVolumetricLightmapImport:          1: 11.4% covering 6.3% of volume
+[2017.11.09-17.27.45:035][382]LogVolumetricLightmapImport:          2: 85.7% covering 0.7% of volume
+[2017.11.09-17.27.45:429][382]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.09-17.27.45:429][382]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.09-17.27.45:430][382]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.09-17.27.45:430][382]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2017.11.09-17.27.45:430][382]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2017.11.09-17.27.45:430][382]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2017.11.09-17.27.45:430][382]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.09-17.27.45:430][382]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.09-17.27.45:430][382]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.09-17.27.45:830][382]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.11.09-17.27.45:913][382]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2017.11.09-17.27.45:932][382]Lightmass on VR09: 4.67 sec total, 125 ms importing, 23 ms setup, 1.18 sec photons, 3.31 sec processing, 0 ms extra exporting [25/25 mappings]. Threads: 23.0 sec total, 9.50 sec processing.
+[2017.11.09-17.27.45:950][382]LogStaticLightingSystem: Illumination: 8.58 sec (362 ms encoding lightmaps, 479 ms encoding shadowmaps)
+[2017.11.09-17.27.45:950][382]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (3.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.11.09-17.27.45:950][382]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.09-17.27.46:413][382]DumpUnbuiltLightIteractions
+[2017.11.09-17.27.46:413][382]Lights with unbuilt interactions: 0
+[2017.11.09-17.27.46:413][382]
+[2017.11.09-17.27.46:413][382]Primitives with unbuilt interactions: 0
+[2017.11.09-17.27.46:428][383]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.09-17.27.46:428][383]MapCheck: New page: TopDownExampleMap - Nov 9, 2017, 7:27:46 PM
+[2017.11.09-17.27.46:496][383]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.356ms to complete.
+[2017.11.09-17.27.50:492][861]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.09-17.27.50:506][861]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.27.50:506][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.09-17.27.50:506][861]PIE: New page: PIE session: TopDownExampleMap (Nov 9, 2017, 7:27:50 PM)
+[2017.11.09-17.27.50:506][861]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.11.09-17.27.50:522][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016134s)
+[2017.11.09-17.27.50:523][861]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.11.09-17.27.50:523][861]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2017.11.09-17.27.50:523][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.017473s)
+[2017.11.09-17.27.50:536][861]LogInit: XAudio2 using 'LG TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.09-17.27.50:542][861]LogInit: FAudioDevice initialized.
+[2017.11.09-17.27.50:576][861]LogLoad: Game class is 'WhereIsDaltonGameMode'
+[2017.11.09-17.27.50:578][861]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.11.09-18.27.50
+[2017.11.09-17.27.50:578][861]LogWorld: Bringing up level for play took: 0.001258
+[2017.11.09-17.27.50:580][861]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap 0.024
+[2017.11.09-17.27.50:580][861]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.28.04:254][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.28.04:282][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.30.42:952][622]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.09-17.30.43:147][622]LogMaterial: Missing cached shader map for material M_SkyBox, compiling. 
+[2017.11.09-17.30.43:166][622]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.09-17.30.43:407][622]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.09-17.30.43:465][622]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2017.11.09-17.30.44:102][622]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.11.09-17.30.44:353][622]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.09-17.30.44:434][622]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2017.11.09-17.31.28:048][337]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.09-17.31.28:256][337]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.11.09-17.31.37:176][218]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.09-17.33.02:034][462]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.09-17.33.11:263][421]LogSavePackage: Save=177.85ms
+[2017.11.09-17.33.11:263][421]LogSavePackage: Moving '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/TopDownExampleMap_Auto1C111B5B646FB4CBA041D62970F154929.tmp' to '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap'
+[2017.11.09-17.33.11:265][421]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_Auto1.umap
+[2017.11.09-17.33.11:268][421]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.218
+[2017.11.09-17.33.11:268][421]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.218
+[2017.11.09-17.33.11:270][421]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData] ([1] browsable assets)...
+[2017.11.09-17.33.11:270][421]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData]
+[2017.11.09-17.33.11:290][421]LogSavePackage: Save=18.51ms
+[2017.11.09-17.33.11:290][421]LogSavePackage: Moving '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/TopDownExampleMap_BuiltData_Auto45497D0F4E27F0D664BB81B08EC13B29.tmp' to '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData_Auto1.uasset'
+[2017.11.09-17.33.11:291][421]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/Autosaves/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData_Auto1.uasset
+[2017.11.09-17.33.11:291][421]LogFileHelpers: Auto-saving content packages took 0.022
+[2017.11.09-18.09.47:584][752]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{5f1ddcd2-d5b5-479a-8a32-4f5c2d75a103} was removed. Shutting down audio device.
+[2017.11.09-18.09.47:595][752]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.09-18.23.56:073][ 18]LogInit: XAudio2 using 'LG TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.09-18.26.44:645][453]SourceControl: On branch master
+[2017.11.09-18.26.44:645][453]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.11.09-18.26.44:645][453]SourceControl: Changes not staged for commit:
+[2017.11.09-18.26.44:645][453]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.11.09-18.26.44:645][453]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.09-18.26.44:645][453]SourceControl: 	modified:   WhereIsDalton/Config/DefaultEditor.ini
+[2017.11.09-18.26.44:645][453]SourceControl: 	modified:   WhereIsDalton/Intermediate/CachedAssetRegistry.bin
+[2017.11.09-18.26.44:645][453]SourceControl: 	modified:   WhereIsDalton/Saved/Autosaves/PackageRestoreData.json
+[2017.11.09-18.26.44:645][453]SourceControl: 	modified:   WhereIsDalton/Saved/Config/Windows/Editor.ini
+[2017.11.09-18.26.44:645][453]SourceControl: 	modified:   WhereIsDalton/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.09-18.26.44:645][453]SourceControl: 	modified:   WhereIsDalton/Saved/Logs/WhereIsDalton.log
+[2017.11.09-18.26.44:645][453]SourceControl: Untracked files:
+[2017.11.09-18.26.44:645][453]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.09-18.26.44:645][453]SourceControl: 	WhereIsDalton/Content/TopDownBP/
+[2017.11.09-18.26.44:645][453]SourceControl: 	WhereIsDalton/Intermediate/AssetRegistryCache/311563bb.bin
+[2017.11.09-18.26.44:645][453]SourceControl: 	WhereIsDalton/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.11.09-18.26.44:645][453]SourceControl: 	WhereIsDalton/Saved/Autosaves/Game/
+[2017.11.09-18.26.44:645][453]SourceControl: 	WhereIsDalton/Saved/Backup/TopDownExampleMap_2017-11-09-18-33-11.umap
+[2017.11.09-18.26.44:645][453]SourceControl: 	WhereIsDalton/Saved/Backup/TopDownOverview_2017-11-09-18-23-33.uasset
+[2017.11.09-18.26.44:645][453]SourceControl: 	WhereIsDalton/Saved/Config/CrashReportClient/UE4CC-Windows-D6CC52C64F8A958A2137F9B98884D9F9/
+[2017.11.09-18.26.44:645][453]SourceControl: 	WhereIsDalton/Saved/Config/Windows/SourceControlSettings.ini
+[2017.11.09-18.26.44:645][453]SourceControl: 	WhereIsDalton/Saved/Config/WorldState/
+[2017.11.09-18.26.44:645][453]SourceControl: 	WhereIsDalton/Saved/Logs/WhereIsDalton-backup-2017.11.09-18.20.44.log
+[2017.11.09-18.26.44:645][453]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.09-18.26.44:800][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Developers/shadston/yolo" FILE="../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/shadston/yolo.uasset" SILENT=true
+[2017.11.09-18.26.44:815][453]LogSavePackage: Save=14.08ms
+[2017.11.09-18.26.44:815][453]LogSavePackage: Moving '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/yolo4B48BC7041A02BD4E74BD0B70050772D.tmp' to '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/shadston/yolo.uasset'
+[2017.11.09-18.26.44:818][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/shadston/yolo.uasset
+[2017.11.09-18.26.44:902][453]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-18.26.44:902][453]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-18.26.59:365][155]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-18.26.59:365][155]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-18.27.22:140][484]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-18.27.22:140][484]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-18.27.45:675][266]LogSavePackage: Save=175.23ms
+[2017.11.09-18.27.45:675][266]LogSavePackage: Moving '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/TopDownExampleMap551403F64BFA4AAA828DCBAA976EE401.tmp' to '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap.umap'
+[2017.11.09-18.27.45:681][266]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap.umap
+[2017.11.09-18.27.45:710][266]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.288
+[2017.11.09-18.27.45:810][266]LogSavePackage: Save=96.10ms
+[2017.11.09-18.27.45:810][266]LogSavePackage: Moving '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/TopDownExampleMap_BuiltData3DC5AD2A4923D8B16341B2BDF5371CC7.tmp' to '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.11.09-18.27.45:812][266]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.11.09-18.27.45:882][266]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2017.11.09-18.27.45:882][266]SourceControl: Error: WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.11.09-18.27.45:882][266]SourceControl: Error: Use -f if you really want to add them.
+[2017.11.09-18.27.48:843][620]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.28.49:515][620]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-18.28.49:515][620]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-18.28.49:565][620]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.09-18.28.49:629][620]SourceControl: Error: error: pathspec 'C:/Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/shadston/yolo.uasset' did not match any file(s) known to git.
+[2017.11.09-18.28.54:906][248]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.29.02:591][248]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-18.29.02:591][248]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-18.29.02:628][248]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.09-18.29.02:660][248]SourceControl: Error: error: pathspec 'C:/Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/shadston/yolo.uasset' did not match any file(s) known to git.
+[2017.11.09-18.30.05:970][286]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.30.16:728][286]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-18.30.16:728][286]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-18.30.16:777][286]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.09-18.30.16:809][286]SourceControl: Error: error: pathspec 'C:/Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/shadston/yolo.uasset' did not match any file(s) known to git.
+[2017.11.09-18.30.40:355][ 18]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.31.15:056][535]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.31.19:734][535]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.09-18.31.19:766][535]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-18.31.19:766][535]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-18.31.19:770][535]SourceControl: Submitted revision.
+[2017.11.09-18.31.39:144][374]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.34.04:578][197]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.34.22:812][ 50]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.34.28:255][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Developers/shadston/yolo" FILE="../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/shadston/yolo.uasset" SILENT=true
+[2017.11.09-18.34.28:270][385]LogSavePackage: Save=13.39ms
+[2017.11.09-18.34.28:270][385]LogSavePackage: Moving '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Saved/yoloE5CBA99C4E8EE27EC5A3B78E77599F47.tmp' to '../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/shadston/yolo.uasset'
+[2017.11.09-18.34.28:271][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/shadston/yolo.uasset
+[2017.11.09-18.34.28:354][385]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-18.34.28:354][385]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-18.34.28:447][385]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-18.34.28:447][385]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-18.34.29:971][567]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.34.33:256][567]SourceControl: Error: git-lfs filter-process: git-lfs: command not found
+[2017.11.09-18.34.33:256][567]SourceControl: Error: fatal: The remote end hung up unexpectedly
+[2017.11.09-18.34.33:295][567]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.09-18.34.33:330][567]SourceControl: Error: error: pathspec 'C:/Users/studentVR/Documents/UnrealKNTG/WhereIsDalton/Content/Developers/shadston/yolo.uasset' did not match any file(s) known to git.
