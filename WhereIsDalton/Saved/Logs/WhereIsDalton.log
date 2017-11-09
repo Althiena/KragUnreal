@@ -1,4 +1,4 @@
-﻿Log file open, 11/09/17 17:59:30
+﻿Log file open, 11/09/17 18:41:35
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WhereIsDalton
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-356884770) SRandInit(-356884770).
+LogInit: Display: RandInit(-1486701052) SRandInit(-1486701052).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3709383, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.164072
+LogStats: Stats thread started at 0.167293
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -75,7 +75,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/studentVR/Desktop/Zima/WhereIsDalton/Binaries/Win64/UE4Editor-WhereIsDalton.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Binaries/Win64/UE4Editor-WhereIsDalton.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
@@ -190,159 +190,260 @@ LogInit: Compiled (64-bit): Oct 20 2017 10:39:19
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.09-16.59.32:297][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.09-16.59.32:297][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.09-16.59.32:308][  0]LogInit: Computer: VR14
-[2017.11.09-16.59.32:309][  0]LogInit: User: studentVR
-[2017.11.09-16.59.32:309][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.09-16.59.32:309][  0]LogInit: High frequency timer resolution =3.417985 MHz
-[2017.11.09-16.59.32:309][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.11.09-16.59.32:309][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.09-16.59.32:309][  0]LogMemory: Process Physical Memory: 272.42 MB used, 272.42 MB peak
-[2017.11.09-16.59.32:309][  0]LogMemory: Process Virtual Memory: 269.78 MB used, 269.78 MB peak
-[2017.11.09-16.59.32:309][  0]LogMemory: Physical Memory: 7337.73 MB used,  25362.95 MB free, 32700.68 MB total
-[2017.11.09-16.59.32:309][  0]LogMemory: Virtual Memory: 645.21 MB used,  25362.95 MB free, 134217728.00 MB total
-[2017.11.09-16.59.32:439][  0]LogInit: Using OS detected language (en-US).
-[2017.11.09-16.59.32:439][  0]LogInit: Using OS detected locale (pl-PL).
-[2017.11.09-16.59.32:442][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.09-16.59.32:442][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en-US' will be used for the locale.
-[2017.11.09-16.59.32:819][  0]LogInit: Setting process to per monitor DPI aware
-[2017.11.09-16.59.33:040][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.09-16.59.33:066][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.11.09-16.59.33:066][  0]LogD3D11RHI:       4058/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.11.09-16.59.33:067][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.09-16.59.33:067][  0]LogD3D11RHI:       0/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.09-16.59.33:067][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.09-16.59.33:070][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.09-16.59.33:070][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.09-16.59.33:070][  0]LogWindows: EnumDisplayDevices:
-[2017.11.09-16.59.33:070][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.11.09-16.59.33:070][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.11.09-16.59.33:070][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.11.09-16.59.33:070][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.11.09-16.59.33:070][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.11.09-16.59.33:071][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.11.09-16.59.33:071][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
-[2017.11.09-16.59.33:071][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2017.11.09-16.59.33:071][  0]LogRHI: Texture pool is 2841 MB (70% of 4058 MB)
-[2017.11.09-16.59.33:082][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.09-16.59.33:091][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.09-16.59.33:137][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/studentVR/Desktop/Zima/WhereIsDalton/Intermediate/Shaders/WorkingDirectory/1036/).
-[2017.11.09-16.59.33:137][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentVR/AppData/Local/Temp/UnrealShaderWorkingDir/B3976C3143FEE302BD6B24A8A9D02033/'.
-[2017.11.09-16.59.33:137][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.09-16.59.34:033][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.09-16.59.34:080][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.09-16.59.34:128][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.09-16.59.34:175][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.09-16.59.34:230][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.09-16.59.34:292][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.09-16.59.34:344][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.09-16.59.34:390][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.09-16.59.34:432][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.09-16.59.34:484][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.09-16.59.34:531][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.09-16.59.34:579][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.09-16.59.34:623][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.09-16.59.34:669][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.09-16.59.34:770][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.09-16.59.34:770][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.09-16.59.34:816][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.09-16.59.34:852][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.09-16.59.34:935][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.09-16.59.34:961][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.09-16.59.35:007][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.09-16.59.35:061][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.09-16.59.35:111][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.09-16.59.35:156][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.09-16.59.35:156][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.09-16.59.35:586][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/studentVR/Desktop/Zima/WhereIsDalton/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/studentVR/Desktop/Zima/WhereIsDalton/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.09-16.59.35:667][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.09-16.59.35:684][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.09-16.59.35:696][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentVR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.09-16.59.35:706][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.09-16.59.35:706][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.09-16.59.35:706][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.09-16.59.35:706][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.09-16.59.36:066][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.09-16.59.36:392][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.09-16.59.36:427][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.09-16.59.36:427][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.09-16.59.36:427][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.09-16.59.36:427][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.09-16.59.36:427][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.09-16.59.36:452][  0]LogNetVersion: WhereIsDalton , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3483981653)
-[2017.11.09-16.59.36:610][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
-[2017.11.09-16.59.37:080][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.062685 seconds
-[2017.11.09-16.59.37:086][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2017.11.09-16.59.37:086][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2017.11.09-16.59.37:086][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.09-16.59.37:134][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.09-16.59.39:668][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.09-16.59.39:711][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.09-16.59.40:531][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.09-16.59.40:920][  0]SourceControl: Source control is disabled
-[2017.11.09-16.59.40:920][  0]SourceControl: Source control is disabled
-[2017.11.09-16.59.40:975][  0]SourceControl: Source control is disabled
-[2017.11.09-16.59.41:028][  0]SourceControl: Source control is disabled
-[2017.11.09-16.59.41:818][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.09-16.59.42:072][  0]LogOcInput: OculusInput pre-init called
-[2017.11.09-16.59.42:320][  0]LogEngine: Initializing Engine...
-[2017.11.09-16.59.42:322][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.09-16.59.42:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.09-16.59.42:537][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.09-16.59.42:658][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.09-16.59.42:665][  0]LogInit: XAudio2 using 'LG TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.09-16.59.42:672][  0]LogInit: FAudioDevice initialized.
-[2017.11.09-16.59.42:881][  0]LogDerivedDataCache: Saved boot cache 0.21s 79MB C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2017.11.09-16.59.42:907][  0]LogInit: Texture streaming: Enabled
-[2017.11.09-16.59.43:006][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.09-16.59.43:125][  0]LogInit: Transaction tracking system initialized
-[2017.11.09-16.59.43:418][  0]BlueprintLog: New page: Editor Load
-[2017.11.09-16.59.44:282][  0]LocalizationService: Localization service is disabled
-[2017.11.09-16.59.44:980][  0]LogConsoleResponse: Display: 
-[2017.11.09-16.59.45:148][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.09-16.59.45:148][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.09-16.59.45:148][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.09-16.59.45:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/Zima/WhereIsDalton/Content/' took 0.01s
-[2017.11.09-16.59.46:291][  0]SourceControl: Source control is disabled
-[2017.11.09-16.59.46:291][  0]Cmd: MAP LOAD FILE="../../../../../../Users/studentVR/Desktop/Zima/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.09-16.59.46:291][  0]LightingResults: New page: Lighting Build
-[2017.11.09-16.59.46:331][  0]MapCheck: New page: Map Check
-[2017.11.09-16.59.46:331][  0]LightingResults: New page: Lighting Build
-[2017.11.09-16.59.46:483][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2017.11.09-16.59.46:488][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.09-16.59.46:500][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.09-16.59.46:551][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.496ms to complete.
-[2017.11.09-16.59.46:551][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.260
-[2017.11.09-16.59.46:680][  0]LogCollectionManager: Loaded 0 collections in 0.001651 seconds
-[2017.11.09-16.59.46:753][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/Zima/WhereIsDalton/Saved/Collections/' took 0.01s
-[2017.11.09-16.59.46:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/Zima/WhereIsDalton/Content/Developers/studentVR/Collections/' took 0.01s
-[2017.11.09-16.59.46:754][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/Zima/WhereIsDalton/Content/Collections/' took 0.01s
-[2017.11.09-16.59.46:754][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.11.09-16.59.46:767][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2366 classes and 521 folders.
-[2017.11.09-16.59.46:825][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.09-16.59.46:861][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.09-16.59.46:901][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.11.09-16.59.46:936][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.09-16.59.46:938][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.09-16.59.46:944][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.09-16.59.47:036][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.11.09-16.59.47:200][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.11.09-16.59.47:200][  0]LogLoad: (Engine Initialization) Total time: 17.36 seconds
-[2017.11.09-16.59.47:200][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.09-16.59.47:200][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.09-16.59.47:564][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.09-16.59.47:612][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.09-16.59.48:209][  2]LogAssetRegistry: Asset discovery search completed in 11.6219 seconds
-[2017.11.09-16.59.48:211][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.11.09-16.59.48:211][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2017.11.09-17.41.37:051][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.09-17.41.37:051][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.09-17.41.37:063][  0]LogInit: Computer: VR02
+[2017.11.09-17.41.37:063][  0]LogInit: User: studentVR
+[2017.11.09-17.41.37:063][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.09-17.41.37:063][  0]LogInit: High frequency timer resolution =3.417980 MHz
+[2017.11.09-17.41.37:064][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.11.09-17.41.37:064][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.09-17.41.37:064][  0]LogMemory: Process Physical Memory: 273.50 MB used, 273.50 MB peak
+[2017.11.09-17.41.37:064][  0]LogMemory: Process Virtual Memory: 269.87 MB used, 269.87 MB peak
+[2017.11.09-17.41.37:064][  0]LogMemory: Physical Memory: 4975.82 MB used,  27724.86 MB free, 32700.67 MB total
+[2017.11.09-17.41.37:064][  0]LogMemory: Virtual Memory: 644.13 MB used,  27724.86 MB free, 134217728.00 MB total
+[2017.11.09-17.41.37:223][  0]LogInit: Using OS detected language (en-US).
+[2017.11.09-17.41.37:223][  0]LogInit: Using OS detected locale (pl-PL).
+[2017.11.09-17.41.37:225][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.09-17.41.37:226][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en-US' will be used for the locale.
+[2017.11.09-17.41.37:570][  0]LogInit: Setting process to per monitor DPI aware
+[2017.11.09-17.41.37:788][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.09-17.41.37:813][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.11.09-17.41.37:813][  0]LogD3D11RHI:       4058/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.09-17.41.37:814][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.09-17.41.37:814][  0]LogD3D11RHI:       0/0/16350 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.09-17.41.37:814][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.09-17.41.37:817][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.09-17.41.37:817][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.09-17.41.37:817][  0]LogWindows: EnumDisplayDevices:
+[2017.11.09-17.41.37:817][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.11.09-17.41.37:817][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.09-17.41.37:817][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.09-17.41.37:817][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.11.09-17.41.37:817][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.09-17.41.37:817][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.11.09-17.41.37:817][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2017.11.09-17.41.37:817][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.11.09-17.41.37:817][  0]LogRHI: Texture pool is 2841 MB (70% of 4058 MB)
+[2017.11.09-17.41.37:830][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.09-17.41.37:839][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.09-17.41.37:888][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Intermediate/Shaders/WorkingDirectory/5896/).
+[2017.11.09-17.41.37:888][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/studentVR/AppData/Local/Temp/UnrealShaderWorkingDir/40E0C9F8453BE033FA4CF7B212DFA4B9/'.
+[2017.11.09-17.41.37:888][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.09-17.41.38:743][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.09-17.41.38:795][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.09-17.41.38:847][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.09-17.41.38:898][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.09-17.41.38:949][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.09-17.41.39:000][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.09-17.41.39:051][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.09-17.41.39:102][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.09-17.41.39:147][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.09-17.41.39:197][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.09-17.41.39:247][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.09-17.41.39:297][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.09-17.41.39:347][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.09-17.41.39:397][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.09-17.41.39:496][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.09-17.41.39:496][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.09-17.41.39:546][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.09-17.41.39:587][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.09-17.41.39:678][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.09-17.41.39:706][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.09-17.41.39:757][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.09-17.41.39:808][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.09-17.41.39:858][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.09-17.41.39:911][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.09-17.41.39:911][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.09-17.41.40:422][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.09-17.41.40:493][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.09-17.41.40:493][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.11.09-17.41.40:494][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.09-17.41.40:494][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.09-17.41.40:494][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.09-17.41.40:494][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.09-17.41.40:509][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.09-17.41.40:522][  0]LogDerivedDataCache: Using Local data cache path C:/Users/studentVR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.09-17.41.40:531][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.09-17.41.40:531][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.09-17.41.40:531][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.09-17.41.40:531][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.09-17.41.40:853][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.09-17.41.41:180][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.09-17.41.41:224][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.09-17.41.41:224][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.09-17.41.41:224][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.09-17.41.41:224][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.09-17.41.41:224][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.09-17.41.41:250][  0]LogNetVersion: WhereIsDalton , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3483981653)
+[2017.11.09-17.41.41:406][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.11.09-17.41.41:890][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.062767 seconds
+[2017.11.09-17.41.41:895][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.11.09-17.41.41:895][  0]LogUObjectAllocator: 7372024 out of 0 bytes used by permanent object pool.
+[2017.11.09-17.41.41:895][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.09-17.41.41:952][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.09-17.41.44:589][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.09-17.41.44:632][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.09-17.41.45:565][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.09-17.41.45:988][  0]SourceControl: Source control is disabled
+[2017.11.09-17.41.45:988][  0]SourceControl: Source control is disabled
+[2017.11.09-17.41.46:045][  0]SourceControl: Source control is disabled
+[2017.11.09-17.41.46:099][  0]SourceControl: Source control is disabled
+[2017.11.09-17.41.46:943][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.09-17.41.47:241][  0]LogOcInput: OculusInput pre-init called
+[2017.11.09-17.41.47:517][  0]LogEngine: Initializing Engine...
+[2017.11.09-17.41.47:519][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.09-17.41.47:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.09-17.41.47:716][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.09-17.41.47:849][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.09-17.41.47:857][  0]LogInit: XAudio2 using 'LG TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.09-17.41.47:871][  0]LogInit: FAudioDevice initialized.
+[2017.11.09-17.41.48:127][  0]LogDerivedDataCache: Saved boot cache 0.26s 79MB C:/Users/studentVR/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.11.09-17.41.48:165][  0]LogInit: Texture streaming: Enabled
+[2017.11.09-17.41.48:276][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.09-17.41.48:405][  0]LogInit: Transaction tracking system initialized
+[2017.11.09-17.41.48:732][  0]BlueprintLog: New page: Editor Load
+[2017.11.09-17.41.49:692][  0]LocalizationService: Localization service is disabled
+[2017.11.09-17.41.50:459][  0]LogConsoleResponse: Display: 
+[2017.11.09-17.41.50:631][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.09-17.41.50:631][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.09-17.41.50:631][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.09-17.41.50:659][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Content/' took 0.01s
+[2017.11.09-17.41.51:898][  0]SourceControl: Source control is disabled
+[2017.11.09-17.41.51:898][  0]Cmd: MAP LOAD FILE="../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.09-17.41.51:898][  0]LightingResults: New page: Lighting Build
+[2017.11.09-17.41.51:941][  0]MapCheck: New page: Map Check
+[2017.11.09-17.41.51:941][  0]LightingResults: New page: Lighting Build
+[2017.11.09-17.41.52:014][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2017.11.09-17.41.52:014][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading ../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap.umap.
+[2017.11.09-17.41.52:014][  0]LoadErrors: Error: /Game/TopDownCPP/Maps/TopDownExampleMap : Can't find file for asset. /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData
+[2017.11.09-17.41.52:020][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2017.11.09-17.41.52:020][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading ../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Content/TopDownCPP/Maps/TopDownExampleMap.umap.
+[2017.11.09-17.41.52:020][  0]LoadErrors: Error: /Game/TopDownCPP/Maps/TopDownExampleMap : Can't find file for asset. /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData
+[2017.11.09-17.41.52:021][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2017.11.09-17.41.52:022][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading NULL.
+[2017.11.09-17.41.52:022][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2017.11.09-17.41.52:022][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading NULL.
+[2017.11.09-17.41.52:032][  0]LogLinker: Warning: Can't find file '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData'
+[2017.11.09-17.41.52:032][  0]LoadErrors: Failed to load /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2017.11.09-17.41.52:032][  0]LogLinker: Warning: Can't find file for asset '/Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData' while loading NULL.
+[2017.11.09-17.41.52:032][  0]LoadErrors: Failed to load /Game/TopDownCPP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2017.11.09-17.41.52:083][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.11.09-17.41.52:091][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.09-17.41.52:102][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.09-17.41.52:154][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.512ms to complete.
+[2017.11.09-17.41.52:154][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.256
+[2017.11.09-17.41.52:223][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.09-17.41.52:321][  0]LogCollectionManager: Loaded 0 collections in 0.001625 seconds
+[2017.11.09-17.41.52:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Saved/Collections/' took 0.01s
+[2017.11.09-17.41.52:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Content/Developers/studentVR/Collections/' took 0.01s
+[2017.11.09-17.41.52:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Content/Collections/' took 0.01s
+[2017.11.09-17.41.52:401][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.09-17.41.52:409][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2366 classes and 521 folders.
+[2017.11.09-17.41.52:477][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.09-17.41.52:512][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.09-17.41.52:557][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.09-17.41.52:594][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.09-17.41.52:596][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.09-17.41.52:601][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.09-17.41.52:690][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2017.11.09-17.41.52:847][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.09-17.41.52:847][  0]LogLoad: (Engine Initialization) Total time: 18.41 seconds
+[2017.11.09-17.41.52:847][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.09-17.41.52:847][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.09-17.41.52:872][  0]LogAssetRegistry: Asset discovery search completed in 11.4877 seconds
+[2017.11.09-17.41.52:873][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.09-17.41.52:874][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2017.11.09-17.41.52:878][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.09-17.41.52:922][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.09-17.41.53:870][104]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.09-17.42.06:525][621]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.09-17.42.06:628][621]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.09-17.42.06:830][621]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.11.09-17.42.07:084][621]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2017.11.09-17.42.07:653][621]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.11.09-17.42.07:928][621]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.11.09-17.42.07:952][621]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.11.09-17.42.08:330][621]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.11.09-17.42.08:337][621]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.11.09-17.42.36:539][222]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.09-17.42.41:047][693]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.09-17.45.28:010][ 36]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.09-17.45.28:045][ 36]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.45.28:046][ 36]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.09-17.45.28:053][ 36]LogPlayLevel: [PlayLevel] Compiling ThirdPerson_AnimBP before play...
+[2017.11.09-17.45.28:064][ 36]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] Idle/Run to COS  will never be taken, please connect something to  Can Enter Transition
+[2017.11.09-17.45.28:065][ 36]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] COS to JumpStart  will never be taken, please connect something to  Can Enter Transition
+[2017.11.09-17.45.28:068][ 36]LogBlueprint: Warning: [Compiler ThirdPerson_AnimBP] [0233.64] Compile of ThirdPerson_AnimBP successful, but with 2 Warning(s) [in 15 ms] (/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
+[2017.11.09-17.45.28:180][ 36]LogPlayLevel: PlayLevel: Blueprint regeneration took 134 ms (1 blueprints)
+[2017.11.09-17.45.28:180][ 36]PIE: New page: PIE session: TopDownExampleMap (Nov 9, 2017, 7:45:28 PM)
+[2017.11.09-17.45.28:181][ 36]LogPlayLevel: Creating play world package: /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.11.09-17.45.28:210][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029421s)
+[2017.11.09-17.45.28:211][ 36]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.11.09-17.45.28:211][ 36]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2017.11.09-17.45.28:211][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.030628s)
+[2017.11.09-17.45.28:234][ 36]LogInit: XAudio2 using 'LG TV-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.09-17.45.28:238][ 36]LogInit: FAudioDevice initialized.
+[2017.11.09-17.45.28:291][ 36]LogLoad: Game class is 'WhereIsDaltonGameMode'
+[2017.11.09-17.45.28:295][ 36]LogWorld: Bringing World /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.11.09-18.45.28
+[2017.11.09-17.45.28:295][ 36]LogWorld: Bringing up level for play took: 0.002806
+[2017.11.09-17.45.28:364][ 36]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.11.09-17.45.28:366][ 36]PIE: Play in editor start time for /Game/TopDownCPP/Maps/UEDPIE_0_TopDownExampleMap -0.444
+[2017.11.09-17.45.28:366][ 36]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.49.04:873][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.49.04:906][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownCPP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.11.09-17.55.29:784][392]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownCPP/Maps/TopDownExampleMap' took 0.023
+[2017.11.09-17.55.29:786][392]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/Animations/ThirdPerson_AnimBP] ([1] browsable assets)...
+[2017.11.09-17.55.29:800][392]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP]
+[2017.11.09-17.55.29:800][392]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Animations/ThirdPerson_AnimBP]
+[2017.11.09-17.55.29:903][392]LogSavePackage: Save=92.95ms
+[2017.11.09-17.55.29:903][392]LogSavePackage: Moving '../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Saved/ThirdPerson_AnimBP_Auto12CFACCBA41C06696737A1280AD286F55.tmp' to '../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_AnimBP_Auto1.uasset'
+[2017.11.09-17.55.29:905][392]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Saved/Autosaves/Game/Mannequin/Animations/ThirdPerson_AnimBP_Auto1.uasset
+[2017.11.09-17.55.29:905][392]LogFileHelpers: Auto-saving content packages took 0.120
+[2017.11.09-18.11.46:978][763]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.11.09-18.11.46:979][763]Can't find target actor or component.
+[2017.11.09-18.26.34:260][ 95]SourceControl: On branch master
+[2017.11.09-18.26.34:260][ 95]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.11.09-18.26.34:260][ 95]SourceControl: Changes not staged for commit:
+[2017.11.09-18.26.34:260][ 95]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.11.09-18.26.34:260][ 95]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	modified:   WhereIsDalton/Config/DefaultEditor.ini
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	modified:   WhereIsDalton/Intermediate/CachedAssetRegistry.bin
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	modified:   WhereIsDalton/Saved/Autosaves/PackageRestoreData.json
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	modified:   WhereIsDalton/Saved/Config/Windows/Editor.ini
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	modified:   WhereIsDalton/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	modified:   WhereIsDalton/Saved/Logs/WhereIsDalton.log
+[2017.11.09-18.26.34:260][ 95]SourceControl: Untracked files:
+[2017.11.09-18.26.34:260][ 95]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	WhereIsDalton/Intermediate/AssetRegistryCache/311563bb.bin
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	WhereIsDalton/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	WhereIsDalton/Saved/Autosaves/Game/
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	WhereIsDalton/Saved/Backup/Floor_400x400_2017-11-09-18-24-04.uasset
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	WhereIsDalton/Saved/Backup/ThirdPerson_AnimBP_2017-11-09-18-55-29.uasset
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	WhereIsDalton/Saved/Config/CrashReportClient/UE4CC-Windows-873EDD7F44519D31577A17A6CE0C47C2/
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	WhereIsDalton/Saved/Config/CrashReportClient/UE4CC-Windows-B8E94C6E4A79FBCC96C4568F1B978C47/
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	WhereIsDalton/Saved/Logs/WhereIsDalton-backup-2017.11.09-18.21.19.log
+[2017.11.09-18.26.34:260][ 95]SourceControl: 	WhereIsDalton/Saved/Logs/WhereIsDalton-backup-2017.11.09-18.41.35.log
+[2017.11.09-18.26.34:260][ 95]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.09-18.27.57:615][  0]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.27.57:727][  0]EditorErrors: Warning: No assets to check in!
+[2017.11.09-18.28.11:413][637]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.28.11:510][637]EditorErrors: Warning: No assets to check in!
+[2017.11.09-18.28.22:985][955]LogSavePackage: Save=10.44ms
+[2017.11.09-18.28.22:985][955]LogSavePackage: Moving '../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Saved/NewWidgetBlueprintB07786304CCD575AAF0D919DDDE3BCD8.tmp' to '../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Content/Developers/IQ/NewWidgetBlueprint.uasset'
+[2017.11.09-18.28.22:989][955]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/studentVR/Desktop/WorkIQ/KragUnreal/WhereIsDalton/Content/Developers/IQ/NewWidgetBlueprint.uasset
+[2017.11.09-18.28.26:239][307]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2017.11.09-18.28.41:964][307]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.09-18.28.41:997][307]SourceControl: Error: *** Please tell me who you are.
+[2017.11.09-18.28.41:997][307]SourceControl: Error: Run
+[2017.11.09-18.28.41:997][307]SourceControl: Error:   git config --global user.email "you@example.com"
+[2017.11.09-18.28.41:997][307]SourceControl: Error:   git config --global user.name "Your Name"
+[2017.11.09-18.28.41:997][307]SourceControl: Error: to set your account's default identity.
+[2017.11.09-18.28.41:997][307]SourceControl: Error: Omit --global to set the identity only in this repository.
+[2017.11.09-18.28.41:997][307]SourceControl: Error: fatal: unable to auto-detect email address (got 'studentVR@vr02.(none)')
+[2017.11.09-18.28.42:002][307]SourceControl: Submitted revision.
